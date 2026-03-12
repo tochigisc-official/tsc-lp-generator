@@ -782,7 +782,7 @@ ${h1On
         ${node}
         <img src="${BG.wingR}" style="width:2.6vw;max-width:36px;vertical-align:middle;margin-left:8px" alt="">
       </p>
-      <div style="display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:clamp(8px,2vw,20px);margin-bottom:30px" class="day-emblem-grid">
+      <div style="display:grid;grid-template-columns:1fr minmax(200px,40%) 1fr;align-items:center;gap:clamp(8px,2vw,20px);margin-bottom:30px" class="day-emblem-grid">
         <div style="text-align:center">
         <div style="text-align:center">
           ${homeLogo?`<img src="${homeLogo}" style="width:clamp(70px,18vw,130px);height:clamp(70px,18vw,130px);object-fit:contain;margin:0 auto;display:block">`:`<div style="width:clamp(70px,18vw,130px);height:clamp(70px,18vw,130px);border-radius:50%;border:2px solid rgba(255,255,255,.4);margin:0 auto;display:flex;align-items:center;justify-content:center;font-size:clamp(14px,3.5vw,18px);font-weight:700;color:#fff;font-style:italic">HOME</div>`}
@@ -1169,7 +1169,7 @@ html{font-size:16px}
 body{width:100%;max-width:100%;overflow-x:hidden}
 img{max-width:100%;height:auto;image-rendering:-webkit-optimize-contrast;image-rendering:crisp-edges}
 /* 試合情報エンブレムグリッド：常に3列維持 */
-.day-emblem-grid{display:grid!important;grid-template-columns:1fr auto 1fr!important;align-items:center!important}
+.day-emblem-grid{display:grid!important;grid-template-columns:1fr minmax(200px,40%) 1fr!important;align-items:center!important}
 
 /* スマホ対応 */
 @media(max-width:768px){
